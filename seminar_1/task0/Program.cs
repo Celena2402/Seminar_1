@@ -4,6 +4,9 @@
 4->16
 -3 ->9
 -7 ->49
+
+
+++++++
 */ 
 int userNumber = new int();
 Console.WriteLine("Введите число");
