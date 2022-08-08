@@ -10,7 +10,6 @@ int delenie(int number1, int number2)
 {
     int result=number1 % number2;
     return result; 
-
 }
 Console.WriteLine("Введите число 1");
 int number1=int.Parse(Console.ReadLine());
