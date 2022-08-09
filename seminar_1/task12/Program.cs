@@ -6,7 +6,7 @@
 16, 4 -> кратно
 */
 
-int delenie(int number1, int number2)
+/*int delenie(int number1, int number2)
 {
     int result=number1 % number2;
     return result; 
@@ -25,4 +25,21 @@ if (digit>0)
 else
 {
     Console.WriteLine($"Кратно");
+} */
+
+Console.WriteLine("Введите первое число: ");
+int firstNumber = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите второе число: ");
+int secondNumber = Convert.ToInt32(Console.ReadLine());
+
+ int number = firstNumber % secondNumber; 
+
+if (number > 0)
+{
+    Console.WriteLine($"Остаток от деления: {number}");
+}
+else
+{
+     Console.WriteLine($"Число {secondNumber} кратно числу {firstNumber}");
 }
