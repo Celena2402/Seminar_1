@@ -19,5 +19,8 @@ if (b1>max) max=b1;
 Console.WriteLine($"Максимальное число = {max}"); 
 
 int min =a1;
-if (b1<min) min=b1;
+if (b1<min) 
+{
+    min=b1;    
+}
 Console.WriteLine($"Минимальное число = {min}"); 
