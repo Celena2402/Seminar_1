@@ -5,6 +5,14 @@
 918 -> 98
 */
 
+int randomNumber = new Random().Next(100, 1000);
+int firstNumber = randomNumber / 100;
+int thirdNumber = randomNumber % 10;
+int number = firstNumber * 10 + thirdNumber;
+
+Console.WriteLine($"Сгенерированное число {randomNumber}. Получившееся число {number}.");
+
+/* НЕ ПРАВИЛЬНО
 int GetMaxDeletefromNumber(int number3)
 {
     int resalt=number3/100;
@@ -16,3 +24,4 @@ int GetMaxDeletefromNumber(int number3)
 int number3=new Random().Next(100,999);
 int maxDigit=GetMaxDeletefromNumber(number3);
 Console.WriteLine($"Из числа {number3} получили {maxDigit}");
+*/
