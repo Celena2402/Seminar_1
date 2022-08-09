@@ -5,3 +5,10 @@
 782 -> 8
 918 -> 1
 */
+Console.WriteLine("Введите трехзначное число: ");
+int Number = Convert.ToInt32(Console.ReadLine());
+
+int firstNumber = Number / 100;
+int twoNumber = Number/10-firstNumber * 10;
+
+Console.WriteLine($"В трехзначном числе {Number} второе число получается {twoNumber}.");

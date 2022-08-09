@@ -5,3 +5,62 @@
 78 -> третьей цифры нет
 32679 -> 6
 */
+
+//int randomNumber = new Random().Next(1, 10000);
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number<100)
+{
+    Console.WriteLine($"У данного числа {number} нет третьей цифры");
+}
+else
+{
+    int 
+}
+
+//Console.WriteLine($"Третья цифра в сгенерированном числе {randomNumber} получившееся число {number}.");
+
+/*
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if(number < 100 && number > -100)
+{
+    Console.WriteLine($"У числа {number} нет третьей цифры");
+}
+else 
+{
+    int devision = number / 100;
+    int score = 0;
+    while(devision > 1)
+    {
+       score++;
+       devision = devision / 10;
+    }
+     int thirdNumber = 0;
+     if(score > 1)
+     {
+        int degree = 10;
+        int i = 1;
+       while(i < score)  
+       {
+        thirdNumber = number / degree % 10;
+        degree = degree * 10;
+        i++;
+       }
+     }
+       else
+       {
+        thirdNumber = number % 10;
+       }
+       if(thirdNumber > 0)
+       {
+        Console.WriteLine($"Третей цифрой числа {number} является {thirdNumber}");
+       }
+       else
+       {
+        Console.WriteLine($"Третей цифрой числа {number} является {-thirdNumber}");
+       }
+}
+*/
