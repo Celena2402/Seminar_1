@@ -9,13 +9,18 @@
 int dayNumber = new int();
 Console.WriteLine("Введите номер дня недели");
 dayNumber = Convert.ToInt32(Console.ReadLine());
-
-if (dayNumber==6 || dayNumber==7)   //  || -значение ИЛИ, && - значение И
+if (dayNumber>=1 && dayNumber<8)
 {
-    Console.WriteLine("Это выходной день");
+    if (dayNumber==6 || dayNumber==7)   //  || -значение ИЛИ, && - значение И
+    {
+        Console.WriteLine("Это выходной день");
+    }
+    else
+    {
+        Console.WriteLine("Это рабочий день");
+    }
 }
 else
 {
-    Console.WriteLine("Это рабочий день");
+    Console.WriteLine("введите число от 1 до 7!");
 }
-
