@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Обучение\\обучение Аналитик\\3. Знакомство с языками программирования\\С#\\семинары\\DZ\\sem_2\\task13\\task13.csproj",
+      "projectUniqueName": "E:\\Обучение\\обучение Аналитик\\3. Знакомство с языками программирования\\С#\\seminar\\DZ\\sem_2\\task13\\task13.csproj",
       "projectName": "task13",
-      "projectPath": "E:\\Обучение\\обучение Аналитик\\3. Знакомство с языками программирования\\С#\\семинары\\DZ\\sem_2\\task13\\task13.csproj",
+      "projectPath": "E:\\Обучение\\обучение Аналитик\\3. Знакомство с языками программирования\\С#\\seminar\\DZ\\sem_2\\task13\\task13.csproj",
       "packagesPath": "C:\\Users\\Елена\\.nuget\\packages\\",
-      "outputPath": "E:\\Обучение\\обучение Аналитик\\3. Знакомство с языками программирования\\С#\\семинары\\DZ\\sem_2\\task13\\obj\\",
+      "outputPath": "E:\\Обучение\\обучение Аналитик\\3. Знакомство с языками программирования\\С#\\seminar\\DZ\\sem_2\\task13\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Елена\\AppData\\Roaming\\NuGet\\NuGet.Config"
