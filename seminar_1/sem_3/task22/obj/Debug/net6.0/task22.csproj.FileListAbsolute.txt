@@ -1,0 +1,5 @@
+E:\Обучение\обучение Аналитик\3. Знакомство с языками программирования\С#\seminar\seminar_1\sem_3\task22\obj\Debug\net6.0\task22.csproj.AssemblyReference.cache
+E:\Обучение\обучение Аналитик\3. Знакомство с языками программирования\С#\seminar\seminar_1\sem_3\task22\obj\Debug\net6.0\task22.GeneratedMSBuildEditorConfig.editorconfig
+E:\Обучение\обучение Аналитик\3. Знакомство с языками программирования\С#\seminar\seminar_1\sem_3\task22\obj\Debug\net6.0\task22.AssemblyInfoInputs.cache
+E:\Обучение\обучение Аналитик\3. Знакомство с языками программирования\С#\seminar\seminar_1\sem_3\task22\obj\Debug\net6.0\task22.AssemblyInfo.cs
+E:\Обучение\обучение Аналитик\3. Знакомство с языками программирования\С#\seminar\seminar_1\sem_3\task22\obj\Debug\net6.0\task22.csproj.CoreCompileInputs.cache
