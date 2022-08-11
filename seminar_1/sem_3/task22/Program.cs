@@ -8,9 +8,8 @@ N = Convert.ToInt16(Console.ReadLine());
 //Console.Write(1);
 for (int i=1; i<= N; i++)
 {
-    //int square<<pow(i,2);
-    int square=i*i;
-    Console.Write($" "+square+" ");    
-}
+       int square=i*i;
+    Console.Write($" "+square+",");    
 
+}
 Console.WriteLine(" ");
