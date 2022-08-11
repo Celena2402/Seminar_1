@@ -18,5 +18,5 @@ Console.WriteLine("Введите Y2:");
 userY2=Convert.ToInt32(Console.ReadLine());
 
 double result=Math.Sqrt((userX2-userX1)*(userX2-userX1)+(userY2-userY1)*(userY2-userY1));
-result= Math.Round(result,2);
+result= Math.Round(result,2); // округление значения
 Console.WriteLine($"Расстояние между точками {userX1}:{userY1} и {userX2}:{userY2} равно {result} ");
