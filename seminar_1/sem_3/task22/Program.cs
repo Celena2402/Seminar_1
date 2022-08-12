@@ -9,7 +9,16 @@ N = Convert.ToInt16(Console.ReadLine());
 for (int i=1; i<= N; i++)
 {
        int square=i*i;
-    Console.Write($" "+square+",");    
+       if (i<N)
+       {
+        Console.Write($" "+square+",");
+       }
+       else
+       {
+        Console.Write(" "+i*i);
+       }
+
+  //  Console.Write($" "+square+",");    
 
 }
 Console.WriteLine(" ");
