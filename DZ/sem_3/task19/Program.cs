@@ -9,19 +9,27 @@
 Console.WriteLine("Введите число не меньше пятизначного: ");
 int Number = Convert.ToInt32(Console.ReadLine());
 
-if (Number>5)
+int num=Number;
+int obr=0;
+
+if (Number>9999)
 {
-    //int pramo=0;
     while (Number>0)
     {
-        int pramo=Number/10;
-        Console.WriteLine($"Прямое значение {pramo}");
+        int pramo=Number%10;
+        obr=obr*10+pramo;
+        Number=Number/10;
+        //Console.WriteLine($"Прямое значение {num}");
     }
-    //Console.WriteLine($"Прямое значение {pramo}");
+    if (num==obr)
+    {
+        Console.WriteLine("Это палиндром!");
+    }
+    else
+    {
+        Console.WriteLine("Число не является палиндромом!");
+    }
 
-    //int firstNumber = Number / 100;
-    //int twoNumber = Number/10-firstNumber * 10;
-    //Console.WriteLine($"В трехзначном числе {Number} второе число получается {twoNumber}.");
 }
 else
 {
