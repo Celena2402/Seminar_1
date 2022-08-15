@@ -1,5 +1,5 @@
 ﻿/*
-Напишите программу, которая 
+Задача 24:Напишите программу, которая 
 принимает на вход число (А) и выдаёт сумму чисел 
 от 1 до А.
 7 -> 28
@@ -12,7 +12,8 @@
 
 Console.Clear();
 Console.WriteLine("Введите число:");
-int num=int.Parse(Console.ReadLine());//Parse - преобразует одит тип данных в другой
+//int num=int.Parse(Console.ReadLine());//Parse - преобразует одит тип данных в другой
+int num=Convert.ToInt32(Console.ReadLine());
 
 int GetSumNums(int number)
 {
