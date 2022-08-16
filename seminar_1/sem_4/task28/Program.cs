@@ -15,7 +15,6 @@ int GetProNums(int number)
     int i=1;
     while(i<=number)
     {
-        //sum+=i;
         pro=pro*i;
         Console.Write($" {pro} ");
         i++;
@@ -23,7 +22,7 @@ int GetProNums(int number)
     return pro; //возврат функции
 }
 
-Console.WriteLine($"Сумма чисел от 1 до А= {GetProNums(num)}");
+Console.WriteLine($"Произведение чисел от 1 до А= {GetProNums(num)}");
 
 /*
 Console.Clear();
