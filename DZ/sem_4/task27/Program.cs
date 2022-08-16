@@ -5,3 +5,21 @@
 
 */
 
+int GetSumNums(int number)
+{    
+        int sum=0; 
+        int num=0;
+        while (number>0)
+        {
+            num=number%10;
+            sum=sum+num;
+            number=number/10;
+        }
+    return sum;
+}
+
+Console.WriteLine("Введите число:");
+int num=int.Parse(Console.ReadLine());
+
+Console.Write($"Сумма чисел у числа {num} равно {GetSumNums(num)}");
+Console.WriteLine(" ");
