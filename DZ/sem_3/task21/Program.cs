@@ -36,7 +36,7 @@ Console.WriteLine("Введите координаты точки B (через 
 tB = Console.ReadLine();
 string[] tvB = tB.Split(' ').Where(x=>x !="").ToArray();
 int userX2 = int.Parse(tvB[0]);
-int userY2 = int.Parse(tvB[1]);
+int userY2 = int.Parse(tvB[1]); 
 int userZ2 = int.Parse(tvB[2]);
 
 int stepen = 2;
