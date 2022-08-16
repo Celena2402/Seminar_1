@@ -24,7 +24,7 @@ userZ2=Convert.ToInt32(Console.ReadLine());
 */
 
 string tA = "";
-Console.WriteLine("Введите координаты точки А (через пробел):");
+Console.WriteLine("Введите координаты точки А(x1, y1, z1) (через пробел):");
 tA = Console.ReadLine();
 string[] tvA = tA.Split(' ').Where(x=>x !="").ToArray();
 int userX1 = int.Parse(tvA[0]);
@@ -32,7 +32,7 @@ int userY1 = int.Parse(tvA[1]);
 int userZ1 = int.Parse(tvA[2]);
 
 string tB = "";
-Console.WriteLine("Введите координаты точки B (через пробел):");
+Console.WriteLine("Введите координаты точки B(x2, y2, z2) (через пробел):");
 tB = Console.ReadLine();
 string[] tvB = tB.Split(' ').Where(x=>x !="").ToArray();
 int userX2 = int.Parse(tvB[0]);
