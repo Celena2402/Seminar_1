@@ -56,11 +56,14 @@ int [] GetArray(int size, int minValue, int maxValue)
     return res;
 }
 
-int [] array = GetArray(5, 0, 9);
+Console.WriteLine("Введите количество элементов в массиве:");
+int leng=Convert.ToInt32(Console.ReadLine());
+int [] array = GetArray(leng, 0, 9);
 Console.WriteLine();
+
 int pow = 0;
 
-for(int i = 0; i <= array.Length / 2; i++)
+for(int i = 0; i <= (array.Length-1) / 2; i++)
 {
     if(i != array.Length - 1 - i)
     {
